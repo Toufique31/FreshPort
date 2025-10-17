@@ -1,6 +1,7 @@
 import React from 'react'
 import './ExploreMenu.css'
-import { menu_list } from '../../../assets/assets'
+import { menu_list } from '../../assets/assets'
+
 const ExploreMenu = () => {
   return (
     <div className='explore-menu' id='explore-menu'>
@@ -14,8 +15,9 @@ const ExploreMenu = () => {
                     <p>{item.menu_name}</p>
                 </div>
             )
-        })}
+        })} 
       </div>
+      <hr/>
    </div>
   )
 }
